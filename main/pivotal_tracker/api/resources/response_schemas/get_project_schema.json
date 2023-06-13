@@ -1,0 +1,370 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "account_id",
+        "atom_enabled",
+        "automatic_planning",
+        "bugs_and_chores_are_estimatable",
+        "created_at",
+        "current_iteration_number",
+        "description",
+        "enable_following",
+        "enable_incoming_emails",
+        "enable_tasks",
+        "has_google_domain",
+        "id",
+        "initial_velocity",
+        "iteration_length",
+        "kind",
+        "name",
+        "number_of_done_iterations_to_show",
+        "point_scale",
+        "point_scale_is_custom",
+        "profile_content",
+        "project_type",
+        "public",
+        "show_priority_icon",
+        "show_priority_icon_in_all_panels",
+        "show_story_priority",
+        "start_date",
+        "start_time",
+        "time_zone",
+        "updated_at",
+        "velocity_averaged_over",
+        "version",
+        "week_start_day"
+    ],
+    "properties": {
+        "account_id": {
+            "type": "integer",
+            "default": 0,
+            "title": "The account_id Schema",
+            "examples": [
+                100
+            ]
+        },
+        "atom_enabled": {
+            "type": "boolean",
+            "default": false,
+            "title": "The atom_enabled Schema",
+            "examples": [
+                true
+            ]
+        },
+        "automatic_planning": {
+            "type": "boolean",
+            "default": false,
+            "title": "The automatic_planning Schema",
+            "examples": [
+                true
+            ]
+        },
+        "bugs_and_chores_are_estimatable": {
+            "type": "boolean",
+            "default": false,
+            "title": "The bugs_and_chores_are_estimatable Schema",
+            "examples": [
+                false
+            ]
+        },
+        "created_at": {
+            "type": "string",
+            "default": "",
+            "title": "The created_at Schema",
+            "examples": [
+                "2022-10-18T12:00:05Z"
+            ]
+        },
+        "current_iteration_number": {
+            "type": "integer",
+            "default": 0,
+            "title": "The current_iteration_number Schema",
+            "examples": [
+                15
+            ]
+        },
+        "description": {
+            "type": "string",
+            "default": "",
+            "title": "The description Schema",
+            "examples": [
+                "Expeditionary Battle Planetoid"
+            ]
+        },
+        "enable_following": {
+            "type": "boolean",
+            "default": false,
+            "title": "The enable_following Schema",
+            "examples": [
+                true
+            ]
+        },
+        "enable_incoming_emails": {
+            "type": "boolean",
+            "default": false,
+            "title": "The enable_incoming_emails Schema",
+            "examples": [
+                true
+            ]
+        },
+        "enable_tasks": {
+            "type": "boolean",
+            "default": false,
+            "title": "The enable_tasks Schema",
+            "examples": [
+                true
+            ]
+        },
+        "has_google_domain": {
+            "type": "boolean",
+            "default": false,
+            "title": "The has_google_domain Schema",
+            "examples": [
+                false
+            ]
+        },
+        "id": {
+            "type": "integer",
+            "default": 0,
+            "title": "The id Schema",
+            "examples": [
+                99
+            ]
+        },
+        "initial_velocity": {
+            "type": "integer",
+            "default": 0,
+            "title": "The initial_velocity Schema",
+            "examples": [
+                10
+            ]
+        },
+        "iteration_length": {
+            "type": "integer",
+            "default": 0,
+            "title": "The iteration_length Schema",
+            "examples": [
+                1
+            ]
+        },
+        "kind": {
+            "type": "string",
+            "default": "",
+            "title": "The kind Schema",
+            "examples": [
+                "project"
+            ]
+        },
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": [
+                "Death Star"
+            ]
+        },
+        "number_of_done_iterations_to_show": {
+            "type": "integer",
+            "default": 0,
+            "title": "The number_of_done_iterations_to_show Schema",
+            "examples": [
+                4
+            ]
+        },
+        "point_scale": {
+            "type": "string",
+            "default": "",
+            "title": "The point_scale Schema",
+            "examples": [
+                "0,1,2,3"
+            ]
+        },
+        "point_scale_is_custom": {
+            "type": "boolean",
+            "default": false,
+            "title": "The point_scale_is_custom Schema",
+            "examples": [
+                false
+            ]
+        },
+        "profile_content": {
+            "type": "string",
+            "default": "",
+            "title": "The profile_content Schema",
+            "examples": [
+                "This is a machine of war such as the universe has never known. It's colossal, the size of a class-four moon. And it possesses firepower unequaled in the history of warfare."
+            ]
+        },
+        "project_type": {
+            "type": "string",
+            "default": "",
+            "title": "The project_type Schema",
+            "examples": [
+                "private"
+            ]
+        },
+        "public": {
+            "type": "boolean",
+            "default": false,
+            "title": "The public Schema",
+            "examples": [
+                false
+            ]
+        },
+        "show_priority_icon": {
+            "type": "boolean",
+            "default": false,
+            "title": "The show_priority_icon Schema",
+            "examples": [
+                false
+            ]
+        },
+        "show_priority_icon_in_all_panels": {
+            "type": "boolean",
+            "default": false,
+            "title": "The show_priority_icon_in_all_panels Schema",
+            "examples": [
+                true
+            ]
+        },
+        "show_story_priority": {
+            "type": "boolean",
+            "default": false,
+            "title": "The show_story_priority Schema",
+            "examples": [
+                true
+            ]
+        },
+        "start_date": {
+            "type": "string",
+            "default": "",
+            "title": "The start_date Schema",
+            "examples": [
+                "2022-07-04"
+            ]
+        },
+        "start_time": {
+            "type": "string",
+            "default": "",
+            "title": "The start_time Schema",
+            "examples": [
+                "2022-10-18T12:00:10Z"
+            ]
+        },
+        "time_zone": {
+            "type": "object",
+            "default": {},
+            "title": "The time_zone Schema",
+            "required": [
+                "kind",
+                "olson_name",
+                "offset"
+            ],
+            "properties": {
+                "kind": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The kind Schema",
+                    "examples": [
+                        "time_zone"
+                    ]
+                },
+                "olson_name": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The olson_name Schema",
+                    "examples": [
+                        "America/Los_Angeles"
+                    ]
+                },
+                "offset": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The offset Schema",
+                    "examples": [
+                        "-07:00"
+                    ]
+                }
+            },
+            "examples": [{
+                "kind": "time_zone",
+                "olson_name": "America/Los_Angeles",
+                "offset": "-07:00"
+            }]
+        },
+        "updated_at": {
+            "type": "string",
+            "default": "",
+            "title": "The updated_at Schema",
+            "examples": [
+                "2022-10-18T12:00:10Z"
+            ]
+        },
+        "velocity_averaged_over": {
+            "type": "integer",
+            "default": 0,
+            "title": "The velocity_averaged_over Schema",
+            "examples": [
+                3
+            ]
+        },
+        "version": {
+            "type": "integer",
+            "default": 0,
+            "title": "The version Schema",
+            "examples": [
+                66
+            ]
+        },
+        "week_start_day": {
+            "type": "string",
+            "default": "",
+            "title": "The week_start_day Schema",
+            "examples": [
+                "Monday"
+            ]
+        }
+    },
+    "examples": [{
+        "account_id": 100,
+        "atom_enabled": true,
+        "automatic_planning": true,
+        "bugs_and_chores_are_estimatable": false,
+        "created_at": "2022-10-18T12:00:05Z",
+        "current_iteration_number": 15,
+        "description": "Expeditionary Battle Planetoid",
+        "enable_following": true,
+        "enable_incoming_emails": true,
+        "enable_tasks": true,
+        "has_google_domain": false,
+        "id": 99,
+        "initial_velocity": 10,
+        "iteration_length": 1,
+        "kind": "project",
+        "name": "Death Star",
+        "number_of_done_iterations_to_show": 4,
+        "point_scale": "0,1,2,3",
+        "point_scale_is_custom": false,
+        "profile_content": "This is a machine of war such as the universe has never known. It's colossal, the size of a class-four moon. And it possesses firepower unequaled in the history of warfare.",
+        "project_type": "private",
+        "public": false,
+        "show_priority_icon": false,
+        "show_priority_icon_in_all_panels": true,
+        "show_story_priority": true,
+        "start_date": "2022-07-04",
+        "start_time": "2022-10-18T12:00:10Z",
+        "time_zone": {
+            "kind": "time_zone",
+            "olson_name": "America/Los_Angeles",
+            "offset": "-07:00"
+        },
+        "updated_at": "2022-10-18T12:00:10Z",
+        "velocity_averaged_over": 3,
+        "version": 66,
+        "week_start_day": "Monday"
+    }]
+}

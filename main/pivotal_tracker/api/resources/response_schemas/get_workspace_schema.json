@@ -1,0 +1,74 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "id",
+        "kind",
+        "name",
+        "person_id",
+        "project_ids"
+    ],
+    "properties": {
+        "id": {
+            "type": "integer",
+            "default": 0,
+            "title": "The id Schema",
+            "examples": [
+                46
+            ]
+        },
+        "kind": {
+            "type": "string",
+            "default": "",
+            "title": "The kind Schema",
+            "examples": [
+                "workspace"
+            ]
+        },
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": [
+                "executor"
+            ]
+        },
+        "person_id": {
+            "type": "integer",
+            "default": 0,
+            "title": "The person_id Schema",
+            "examples": [
+                101
+            ]
+        },
+        "project_ids": {
+            "type": "array",
+            "default": [],
+            "title": "The project_ids Schema",
+            "items": {
+                "type": "integer",
+                "default": 0,
+                "title": "A Schema",
+                "examples": [
+                    99
+                ]
+            },
+            "examples": [
+                [
+                    99]
+            ]
+        }
+    },
+    "examples": [{
+        "id": 46,
+        "kind": "workspace",
+        "name": "executor",
+        "person_id": 101,
+        "project_ids": [
+            99
+        ]
+    }]
+}

@@ -1,0 +1,29 @@
+# Ignora archivos del sistema Mac 
+.DS_store
+.venv/
+.vscode/
+.pytest_cache/
+.idea/
+
+# node modules
+node_modules/
+
+# _pycache_ folder
+_pycache_
+
+#logger
+logs/*
+
+#data and environment configuration
+package-lock.json
+configuration.json
+environment.json
+
+#firefox driver
+geckodriver/
+geckodriver.log
+
+#reports
+reports/cucumber_report.json
+reports/cucumber_report.html
+reports/screenshots/scenario*
